@@ -449,6 +449,7 @@ class SchemeUtils {
     }
 }
 
+
 // Initialize scheme detail page when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     window.schemeDetailPage = new SchemeDetailPage();

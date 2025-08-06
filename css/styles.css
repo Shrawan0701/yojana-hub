@@ -841,6 +841,88 @@ body {
     display: flex;
     gap: var(--space-md);
 }
+/* Modal-style sections for About Us and Privacy Policy */
+/* Contact form styles (adapt as needed) */
+.modal-section {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.7);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: auto;
+    padding: 4vh 1rem;
+}
+.modal-content {
+    background: #fff;
+    color: #181818;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 2rem 1.5rem;
+    margin: 2rem auto;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.32);
+    position: relative;
+}
+.modal-close-btn {
+    position: absolute;
+    top: 1rem; right: 1rem;
+    background: #f4f4f4;
+    border: none;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 2rem; height: 2rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.modal-close-btn:hover {
+    background: #f44336;
+    color: #fff;
+}
+.hidden { display: none !important; }
+.policy-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;           /* Space between all links */
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Form fields */
+#contactForm label {
+    font-weight: 600;
+}
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+#contactForm button.btn--primary {
+    background-color: #2563eb; /* Tailwind blue-600 */
+    color: white;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#contactForm button.btn--primary:hover {
+    background-color: #1e40af; /* Slightly darker blue */
+}
+
+
+
 
 
 .contact-info p {

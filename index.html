@@ -245,6 +245,69 @@
             </div>
         </div>
     </section>
+    <!-- About Us Section (hidden by default) -->
+<section id="aboutUsSection" class="modal-section hidden">
+    <div class="modal-content container">
+        <button class="modal-close-btn" onclick="toggleSection('aboutUsSection')">&times;</button>
+        <h1>About Us</h1>
+        <p><strong>Sarkari Yojana Portal</strong> is your comprehensive source for Indian government schemes information. Our mission is to provide clear, up-to-date, and accessible content in Hindi, English, and Marathi.</p>
+        <h2>Our Vision</h2>
+        <p>To empower citizens by making government schemes accessible to all.</p>
+        <h2>Contact</h2>
+        <p>Reach us at <a href="mailto:infosarkariportal@gmail.com">infosarkariportal@gmail.com</a>.</p>
+    </div>
+</section>
+
+<!-- Privacy Policy Section (hidden by default) -->
+<section id="privacyPolicySection" class="modal-section hidden">
+    <div class="modal-content container">
+        <button class="modal-close-btn" onclick="toggleSection('privacyPolicySection')">&times;</button>
+        <h1>Privacy Policy</h1>
+        <p>Last updated: August 2025</p>
+        <p>At Sarkari Yojana Portal, your privacy is important to us. We collect personal info through newsletter subscriptions and use cookies to improve your experience. We also use third-party services like Google AdSense.</p>
+        <h2>Third-Party Services</h2>
+        <p>For details, see the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+        <h2>Cookies</h2>
+        <p>Cookies help analyze web traffic and personalize content. You can disable cookies in your browser settings.</p>
+        <h2>Contact Us</h2>
+        <p>Questions? Contact <a href="mailto:infosarkariportal@gmail.com">infosarkariportal@gmail.com</a>.</p>
+    </div>
+</section>
+<!-- Contact Us Section (hidden by default) -->
+<section id="contactUsSection" class="modal-section hidden">
+    <div class="modal-content container">
+        <button class="modal-close-btn" onclick="toggleSection('contactUsSection')">&times;</button>
+        <h1>Contact Us</h1>
+        <p>If you have any questions, suggestions, or feedback, feel free to reach out to us!</p>
+
+        <h2>Email</h2>
+        <p><a href="mailto:infosarkariportal@gmail.com">infosarkariportal@gmail.com</a></p>
+
+        <h2>Mailing Address</h2>
+        <address>
+            
+            Pune, Maharashtra <br />
+            India
+        </address>
+
+        <h2>Contact Form</h2>
+        <form id="contactForm" action="#" method="post" onsubmit="return handleContactSubmit(event)">
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required /><br /><br />
+
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br /><br />
+
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+            <button type="submit" class="btn btn--primary">Send Message</button>
+        </form>
+        <p id="formStatus" style="margin-top: 1rem; color: green; display: none;">Thank you for contacting us. We will get back to you soon.</p>
+    </div>
+</section>
+
+
 
     <!-- Footer -->
     <footer class="footer" id="contact">
@@ -288,6 +351,12 @@
                 </div>
             </div>
         </div>
+        <div class="policy-links" style="margin-top: 1rem; text-align: center;">
+    <a href="javascript:void(0)" onclick="toggleSection('aboutUsSection')" style="margin-right:1.5rem;">About Us</a>
+    <a href="javascript:void(0)" onclick="toggleSection('privacyPolicySection')">Privacy Policy</a>
+    <a href="javascript:void(0)" onclick="toggleSection('contactUsSection')">Contact Us</a>
+</div>
+
     </footer>
 
     <!-- Floating Action Button -->
@@ -304,5 +373,68 @@
     </div>
 
     <script src="js/app.js"></script>
+    <script>
+function toggleSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (!section) return;
+    section.classList.toggle('hidden');
+    // Prevent background scroll when modal is open
+    if (!section.classList.contains('hidden')) {
+        document.body.style.overflow = 'hidden';
+    } else {
+        document.body.style.overflow = '';
+    }
+}
+</script>
+<script>
+    // Toggle modal visibility (update to include Contact modal)
+function toggleSection(sectionId) {
+    // Hide other modals except the one clicked
+    ['aboutUsSection', 'privacyPolicySection', 'contactUsSection'].forEach(id => {
+        if (id !== sectionId) document.getElementById(id)?.classList.add('hidden');
+    });
+
+    const section = document.getElementById(sectionId);
+    if (!section) return;
+    section.classList.toggle('hidden');
+
+    // Prevent body scroll if modal is open
+    document.body.style.overflow = section.classList.contains('hidden') ? '' : 'hidden';
+
+    // Hide form submission message if any when modal toggled
+    if (sectionId === 'contactUsSection') {
+        document.getElementById('formStatus').style.display = 'none';
+        document.getElementById('contactForm').reset();
+    }
+}
+
+// Handle contact form submission
+function handleContactSubmit(event) {
+    event.preventDefault();
+    const form = event.target;
+    const formStatus = document.getElementById('formStatus');
+
+    // Basic validation (already handled by required fields)
+    const name = form.name.value.trim();
+    const email = form.email.value.trim();
+    const message = form.message.value.trim();
+
+    if (!name || !email || !message) {
+        alert('Please fill in all fields.');
+        return false;
+    }
+
+    // You can enhance this with actual backend form submission via AJAX or mail server.
+    // For now, we'll just show a success message and reset form
+
+    formStatus.style.color = 'green';
+    formStatus.textContent = 'Thank you for contacting us. We will get back to you soon.';
+    formStatus.style.display = 'block';
+    form.reset();
+
+    return false;  // Prevent actual form submission
+}
+
+</script>
 </body>
 </html>
