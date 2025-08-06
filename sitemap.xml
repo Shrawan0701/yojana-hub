@@ -6,56 +6,56 @@
 
     <!-- Homepage -->
     <url>
-        <loc>https://yourdomain.com/</loc>
+        <loc>https://sarkari-prakashan.com/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <!-- Scheme Pages -->
     <url>
-        <loc>https://yourdomain.com/schemes/ladki-bahin-yojana</loc>
+        <loc>https://sarkari-prakashan.com/schemes/ladki-bahin-yojana.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://yourdomain.com/schemes/pm-awas-yojana</loc>
+        <loc>https://sarkari-prakashan.com/schemes/pm-awas-yojana.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://yourdomain.com/schemes/ayushman-bharat</loc>
+        <loc>https://sarkari-prakashan.com/schemes/ayushman-bharat.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://yourdomain.com/schemes/pm-kisan-samman-nidhi</loc>
+        <loc>https://sarkari-prakashan.com/schemes/pm-kisan-samman-nidhi.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://yourdomain.com/schemes/pm-ujjwala-yojana</loc>
+        <loc>https://sarkari-prakashan.com/schemes/pm-ujjwala-yojana.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://yourdomain.com/schemes/jan-dhan-yojana</loc>
+        <loc>https://sarkari-prakashan.com/schemes/jan-dhan-yojana.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://yourdomain.com/schemes/beti-bachao-beti-padhao</loc>
+        <loc>https://sarkari-prakashan.com/schemes/beti-bachao-beti-padhao.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://yourdomain.com/schemes/digital-india</loc>
+        <loc>https://sarkari-prakashan.com/schemes/digital-india.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
