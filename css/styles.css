@@ -153,6 +153,7 @@ body {
     position: relative;
     display: flex;
     align-items: center;
+    gap: 0.5rem; /* space between input and button */
 }
 
 .search-box i {
@@ -160,6 +161,7 @@ body {
     left: var(--space-md);
     color: var(--gray-400);
     z-index: 1;
+    pointer-events: none; /* so click passes to input */
 }
 
 .search-box input {
@@ -170,6 +172,8 @@ body {
     font-size: 0.875rem;
     width: 250px;
     transition: var(--transition-fast);
+    /* Ensure input takes remaining space */
+    flex: 1;
 }
 
 .search-box input:focus {
@@ -177,6 +181,36 @@ body {
     border-color: var(--primary-color);
     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
+
+/* Style the search button (added inside .search-box) */
+.search-box button {
+    background: var(--primary-color);
+    border: none;
+    border-radius: var(--radius-full);
+    padding: 0.5rem 1rem;
+    color: var(--white);
+    font-size: 0.875rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+.search-box button:hover {
+    background: darken(var(--primary-color), 10%);
+}
+
+.search-box button i {
+    margin-right: 0.25rem;
+}
+
+/* Optional: reduce button padding if only icon inside */
+.search-box button:only-child i {
+    margin-right: 0;
+    padding: 0;
+}
+
 
 .language-switcher select {
     padding: var(--space-sm) var(--space-md);

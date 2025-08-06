@@ -531,18 +531,27 @@ class GovernmentSchemesPortal {
         activeButton.classList.add('active');
     }
 
-    setupSearchFunctionality() {
-        const searchInput = document.getElementById('searchInput');
-        if (!searchInput) return;
+   setupSearchFunctionality() {
+    const searchForm = document.getElementById('searchForm');
+    const searchInput = document.getElementById('searchInput');
+    if (!searchInput || !searchForm) return;
 
-        let searchTimeout;
-        searchInput.addEventListener('input', (e) => {
-            clearTimeout(searchTimeout);
-            searchTimeout = setTimeout(() => {
-                this.searchSchemes(e.target.value);
-            }, 300);
-        });
-    }
+    // Handle form submit (search button click or Enter key)
+    searchForm.addEventListener('submit', (e) => {
+        e.preventDefault();  // Prevent page reload
+        this.searchSchemes(searchInput.value);
+    });
+
+    // Handle instant search on input with debounce
+    let searchTimeout;
+    searchInput.addEventListener('input', (e) => {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            this.searchSchemes(e.target.value);
+        }, 300);
+    });
+}
+
 
     searchSchemes(query) {
         if (!query.trim()) {
