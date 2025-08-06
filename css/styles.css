@@ -842,22 +842,6 @@ body {
     gap: var(--space-md);
 }
 
-.social-links a {
-    width: 40px;
-    height: 40px;
-    background: var(--gray-800);
-    border-radius: var(--radius-full);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--gray-300);
-    transition: var(--transition-fast);
-}
-
-.social-links a:hover {
-    background: var(--primary-color);
-    color: var(--white);
-}
 
 .contact-info p {
     display: flex;
