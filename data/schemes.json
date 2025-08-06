@@ -1,0 +1,476 @@
+{
+  "schemes": [
+    {
+      "id": "ladki-bahin-yojana",
+      "name": {
+        "english": "Ladki Bahin Yojana",
+        "hindi": "लाडकी बहिण योजना",
+        "marathi": "लाडकी बहीण योजना"
+      },
+      "category": "women-welfare",
+      "state": "Maharashtra",
+      "amount": "₹1,500",
+      "frequency": "Monthly",
+      "description": {
+        "english": "Financial assistance scheme for women in Maharashtra providing monthly support of ₹1500 to eligible women aged 21-65 years.",
+        "hindi": "महाराष्ट्र में महिलाओं के लिए वित्तीय सहायता योजना जो 21-65 वर्ष की पात्र महिलाओं को मासिक ₹1500 की सहायता प्रदान करती है।",
+        "marathi": "महाराष्ट्रातील महिलांसाठी आर्थिक मदत योजना जी 21-65 वर्षाच्या पात्र महिलांना मासिक ₹1500 ची मदत प्रदान करते."
+      },
+      "eligibility": {
+        "english": [
+          "Women aged 21-65 years",
+          "Family income less than ₹2.5 lakh annually",
+          "Resident of Maharashtra",
+          "Should have Aadhaar card and bank account"
+        ],
+        "hindi": [
+          "21-65 वर्ष की महिलाएं",
+          "पारिवारिक आय सालाना ₹2.5 लाख से कम",
+          "महाराष्ट्र की निवासी",
+          "आधार कार्ड और बैंक खाता होना चाहिए"
+        ],
+        "marathi": [
+          "21-65 वर्षाच्या महिला",
+          "कुटुंबाचे वार्षिक उत्पन्न ₹2.5 लाखापेक्षा कमी",
+          "महाराष्ट्राची रहिवासी",
+          "आधार कार्ड आणि बँक खाते असावे"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Account Details",
+        "Income Certificate",
+        "Domicile Certificate",
+        "Age Proof",
+        "Photograph"
+      ],
+      "applicationUrl": "https://ladakibahin.maharashtra.gov.in",
+      "lastUpdate": "2025-08-06",
+      "status": "Active",
+      "color": "#e91e63"
+    },
+    {
+      "id": "pm-awas-yojana",
+      "name": {
+        "english": "PM Awas Yojana",
+        "hindi": "पीएम आवास योजना",
+        "marathi": "पीएम आवास योजना"
+      },
+      "category": "housing",
+      "state": "All India",
+      "amount": "₹2.5 Lakh",
+      "frequency": "One-time",
+      "description": {
+        "english": "Affordable housing scheme providing financial assistance up to ₹2.5 lakh for construction of pucca houses for economically weaker sections.",
+        "hindi": "आर्थिक रूप से कमजोर वर्गों के लिए पक्के मकान निर्माण हेतु ₹2.5 लाख तक की वित्तीय सहायता प्रदान करने वाली किफायती आवास योजना।",
+        "marathi": "आर्थिकदृष्ट्या कमकुवत घटकांसाठी पक्के घराच्या बांधकामासाठी ₹2.5 लाखांपर्यंत आर्थिक मदत देणारी परवडणारी गृहनिर्माण योजना."
+      },
+      "eligibility": {
+        "english": [
+          "EWS/LIG/MIG category families",
+          "Should not own a pucca house",
+          "Annual family income as per category limits",
+          "First-time home buyer"
+        ],
+        "hindi": [
+          "EWS/LIG/MIG श्रेणी के परिवार",
+          "पक्का मकान नहीं होना चाहिए",
+          "श्रेणी सीमा के अनुसार वार्षिक पारिवारिक आय",
+          "पहली बार घर खरीदने वाला"
+        ],
+        "marathi": [
+          "EWS/LIG/MIG श्रेणीतील कुटुंबे",
+          "पक्के घराचे मालक नसावे",
+          "श्रेणीनुसार वार्षिक कौटुंबिक उत्पन्न",
+          "पहिल्यांदा घर खरेदी करणारा"
+        ]
+      },
+      "documents": [
+        "Income Certificate",
+        "Aadhaar Card",
+        "Bank Account Details",
+        "Property Documents",
+        "Caste Certificate (if applicable)"
+      ],
+      "applicationUrl": "https://pmaymis.gov.in",
+      "lastUpdate": "2025-08-05",
+      "status": "Active",
+      "color": "#2196f3"
+    },
+    {
+      "id": "ayushman-bharat",
+      "name": {
+        "english": "Ayushman Bharat",
+        "hindi": "आयुष्मान भारत",
+        "marathi": "आयुष्मान भारत"
+      },
+      "category": "health",
+      "state": "All India",
+      "amount": "₹5 Lakh",
+      "frequency": "Annual Coverage",
+      "description": {
+        "english": "National health insurance scheme providing coverage up to ₹5 lakh per family per year for secondary and tertiary healthcare.",
+        "hindi": "द्वितीयक और तृतीयक स्वास्थ्य सेवा के लिए प्रति परिवार प्रति वर्ष ₹5 लाख तक का कवरेज प्रदान करने वाली राष्ट्रीय स्वास्थ्य बीमा योजना।",
+        "marathi": "द्वितीयक आणि तृतीयक आरोग्य सेवेसाठी प्रति कुटुंब दरवर्षी ₹5 लाखांपर्यंत कव्हरेज देणारी राष्ट्रीय आरोग्य विमा योजना."
+      },
+      "eligibility": {
+        "english": [
+          "SECC 2011 listed families",
+          "Occupational category workers",
+          "Should have Ayushman Bharat card",
+          "Pre-existing conditions covered"
+        ],
+        "hindi": [
+          "SECC 2011 में सूचीबद्ध परिवार",
+          "व्यावसायिक श्रेणी के श्रमिक",
+          "आयुष्मान भारत कार्ड होना चाहिए",
+          "पूर्व-मौजूदा बीमारियां कवर"
+        ],
+        "marathi": [
+          "SECC 2011 मध्ये सूचीबद्ध कुटुंबे",
+          "व्यावसायिक श्रेणीतील कामगार",
+          "आयुष्मान भारत कार्ड असावे",
+          "आधीपासूनच्या आजारांचे कव्हरेज"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Ration Card",
+        "SECC Certificate",
+        "Mobile Number",
+        "Photograph"
+      ],
+      "applicationUrl": "https://pmjay.gov.in",
+      "lastUpdate": "2025-08-01",
+      "status": "Active",
+      "color": "#4caf50"
+    },
+    {
+      "id": "pm-kisan-samman-nidhi",
+      "name": {
+        "english": "PM Kisan Samman Nidhi",
+        "hindi": "पीएम किसान सम्मान निधि",
+        "marathi": "पीएम किसान सन्मान निधी"
+      },
+      "category": "agriculture",
+      "state": "All India",
+      "amount": "₹6,000",
+      "frequency": "Annual (3 installments)",
+      "description": {
+        "english": "Income support scheme for small and marginal farmers providing ₹6000 per year in three equal installments of ₹2000 each.",
+        "hindi": "छोटे और सीमांत किसानों के लिए आय सहायता योजना जो प्रति वर्ष ₹6000 की राशि ₹2000 की तीन समान किस्तों में प्रदान करती है।",
+        "marathi": "लहान आणि सीमांत शेतकऱ्यांसाठी उत्पन्न आधार योजना जी दरवर्षी ₹6000 ची रक्कम ₹2000 च्या तीन समान हप्त्यांमध्ये देते."
+      },
+      "eligibility": {
+        "english": [
+          "Small and marginal farmers",
+          "Cultivable land holding",
+          "Valid bank account with IFSC",
+          "Aadhaar card mandatory"
+        ],
+        "hindi": [
+          "छोटे और सीमांत किसान",
+          "खेती योग्य भूमि का स्वामित्व",
+          "IFSC के साथ वैध बैंक खाता",
+          "आधार कार्ड अनिवार्य"
+        ],
+        "marathi": [
+          "लहान आणि सीमांत शेतकरी",
+          "शेतीयोग्य जमिनीचा मालकी हक्क",
+          "IFSC सह वैध बँक खाते",
+          "आधार कार्ड अनिवार्य"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Account Details",
+        "Land Records",
+        "Farmer ID",
+        "Mobile Number"
+      ],
+      "applicationUrl": "https://pmkisan.gov.in",
+      "lastUpdate": "2025-07-28",
+      "status": "Active",
+      "color": "#ff9800"
+    },
+    {
+      "id": "pm-ujjwala-yojana",
+      "name": {
+        "english": "PM Ujjwala Yojana",
+        "hindi": "पीएम उज्ज्वला योजना",
+        "marathi": "पीएम उज्ज्वला योजना"
+      },
+      "category": "welfare",
+      "state": "All India",
+      "amount": "Free Connection",
+      "frequency": "One-time",
+      "description": {
+        "english": "Scheme providing free LPG connections to women from BPL families to promote clean cooking fuel and reduce health hazards from indoor air pollution.",
+        "hindi": "स्वच्छ खाना पकाने के ईंधन को बढ़ावा देने और घर के अंदर वायु प्रदूषण से होने वाले स्वास्थ्य जोखिमों को कम करने के लिए BPL परिवारों की महिलाओं को मुफ्त LPG कनेक्शन प्रदान करने वाली योजना।",
+        "marathi": "स्वच्छ स्वयंपाक इंधनाला प्रोत्साहन देण्यासाठी आणि घरातील हवा प्रदूषणामुळे होणारे आरोग्य धोके कमी करण्यासाठी BPL कुटुंबांतील महिलांना मोफत LPG कनेक्शन देणारी योजना."
+      },
+      "eligibility": {
+        "english": [
+          "Women from BPL families",
+          "Should have SECC 2011 data",
+          "Age 18 years or above",
+          "Should not have LPG connection"
+        ],
+        "hindi": [
+          "BPL परिवारों की महिलाएं",
+          "SECC 2011 डेटा में होना चाहिए",
+          "आयु 18 वर्ष या उससे अधिक",
+          "LPG कनेक्शन नहीं होना चाहिए"
+        ],
+        "marathi": [
+          "BPL कुटुंबांतील महिला",
+          "SECC 2011 डेटामध्ये असावे",
+          "वय 18 वर्षे किंवा त्याहून अधिक",
+          "LPG कनेक्शन नसावे"
+        ]
+      },
+      "documents": [
+        "BPL Card",
+        "Aadhaar Card",
+        "Bank Account Details",
+        "Address Proof",
+        "Photograph"
+      ],
+      "applicationUrl": "https://pmujjwalayojana.com",
+      "lastUpdate": "2025-07-25",
+      "status": "Active",
+      "color": "#673ab7"
+    },
+    {
+      "id": "jan-dhan-yojana",
+      "name": {
+        "english": "PM Jan Dhan Yojana",
+        "hindi": "पीएम जन धन योजना",
+        "marathi": "पीएम जनधन योजना"
+      },
+      "category": "financial-inclusion",
+      "state": "All India",
+      "amount": "Zero Balance Account",
+      "frequency": "One-time",
+      "description": {
+        "english": "Financial inclusion program ensuring access to financial services like banking, savings, credit, insurance and pension in an affordable manner.",
+        "hindi": "वित्तीय समावेश कार्यक्रम जो बैंकिंग, बचत, क्रेडिट, बीमा और पेंशन जैसी वित्तीय सेवाओं तक किफायती तरीके से पहुंच सुनिश्चित करता है।",
+        "marathi": "आर्थिक समावेश कार्यक्रम जो बँकिंग, बचत, क्रेडिट, विमा आणि पेन्शन यासारख्या आर्थिक सेवांमध्ये परवडणारी पोहोच सुनिश्चित करतो."
+      },
+      "eligibility": {
+        "english": [
+          "All Indian citizens above 10 years",
+          "Should have valid identity proof",
+          "Address proof required",
+          "No minimum balance required"
+        ],
+        "hindi": [
+          "10 वर्ष से अधिक के सभी भारतीय नागरिक",
+          "वैध पहचान प्रमाण होना चाहिए",
+          "पता प्रमाण आवश्यक",
+          "न्यूनतम बैलेंस की आवश्यकता नहीं"
+        ],
+        "marathi": [
+          "10 वर्षांपेक्षा जास्त वयाचे सर्व भारतीय नागरिक",
+          "वैध ओळख पुरावा असावा",
+          "पत्ता पुरावा आवश्यक",
+          "किमान शिल्लक राशीची गरज नाही"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Voter ID",
+        "Driving License",
+        "Passport",
+        "Address Proof"
+      ],
+      "applicationUrl": "https://pmjdy.gov.in",
+      "lastUpdate": "2025-07-20",
+      "status": "Active",
+      "color": "#009688"
+    },
+    {
+      "id": "beti-bachao-beti-padhao",
+      "name": {
+        "english": "Beti Bachao Beti Padhao",
+        "hindi": "बेटी बचाओ बेटी पढ़ाओ",
+        "marathi": "बेटी बचाओ बेटी पढाओ"
+      },
+      "category": "women-welfare",
+      "state": "All India",
+      "amount": "Variable Benefits",
+      "frequency": "Ongoing",
+      "description": {
+        "english": "National initiative to address declining child sex ratio and promote girls' education and empowerment through various schemes and awareness programs.",
+        "hindi": "घटते बाल लिंगानुपात को संबोधित करने और विभिन्न योजनाओं और जागरूकता कार्यक्रमों के माध्यम से लड़कियों की शिक्षा और सशक्तिकरण को बढ़ावा देने की राष्ट्रीय पहल।",
+        "marathi": "घटत्या बाल लिंगानुपाताला संबोधित करण्यासाठी आणि विविध योजना व जागरूकता कार्यक्रमांद्वारे मुलींच्या शिक्षण आणि सक्षमीकरणाला चालना देण्याची राष्ट्रीय पहल."
+      },
+      "eligibility": {
+        "english": [
+          "Girl children and women",
+          "Various sub-schemes have different criteria",
+          "Focus on education and health",
+          "All economic backgrounds"
+        ],
+        "hindi": [
+          "बालिकाएं और महिलाएं",
+          "विभिन्न उप-योजनाओं के अलग मापदंड",
+          "शिक्षा और स्वास्थ्य पर फोकस",
+          "सभी आर्थिक पृष्ठभूमि"
+        ],
+        "marathi": [
+          "मुली आणि महिला",
+          "विविध उप-योजनांचे वेगळे निकष",
+          "शिक्षण आणि आरोग्यावर भर",
+          "सर्व आर्थिक पार्श्वभूमी"
+        ]
+      },
+      "documents": [
+        "Birth Certificate",
+        "School Certificates",
+        "Aadhaar Card",
+        "Bank Account Details",
+        "Income Certificate"
+      ],
+      "applicationUrl": "https://wcd.nic.in",
+      "lastUpdate": "2025-07-15",
+      "status": "Active",
+      "color": "#e91e63"
+    },
+    {
+      "id": "digital-india",
+      "name": {
+        "english": "Digital India",
+        "hindi": "डिजिटल इंडिया",
+        "marathi": "डिजिटल इंडिया"
+      },
+      "category": "technology",
+      "state": "All India",
+      "amount": "Various Services",
+      "frequency": "Ongoing",
+      "description": {
+        "english": "Campaign to transform India into a digitally empowered society and knowledge economy through digital infrastructure, governance, and services.",
+        "hindi": "डिजिटल अवसंरचना, शासन और सेवाओं के माध्यम से भारत को एक डिजिटल रूप से सशक्त समाज और ज्ञान अर्थव्यवस्था में बदलने का अभियान।",
+        "marathi": "डिजिटल पायाभूत सुविधा, शासन आणि सेवांद्वारे भारताचे डिजिटल सक्षम समाज आणि ज्ञान अर्थव्यवस्थेत रूपांतर करण्याची मोहीम."
+      },
+      "eligibility": {
+        "english": [
+          "All Indian citizens",
+          "Digital literacy programs for all ages",
+          "Business and government services",
+          "Rural and urban areas"
+        ],
+        "hindi": [
+          "सभी भारतीय नागरिक",
+          "सभी आयु के लिए डिजिटल साक्षरता कार्यक्रम",
+          "व्यापार और सरकारी सेवाएं",
+          "ग्रामीण और शहरी क्षेत्र"
+        ],
+        "marathi": [
+          "सर्व भारतीय नागरिक",
+          "सर्व वयोगटांसाठी डिजिटल साक्षरता कार्यक्रम",
+          "व्यापार आणि सरकारी सेवा",
+          "ग्रामीण आणि शहरी भाग"
+        ]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Mobile Number",
+        "Email ID",
+        "Address Proof",
+        "Educational Certificates"
+      ],
+      "applicationUrl": "https://digitalindia.gov.in",
+      "lastUpdate": "2025-07-10",
+      "status": "Active",
+      "color": "#00bcd4"
+    }
+  ],
+  "categories": [
+    {
+      "id": "women-welfare",
+      "name": {
+        "english": "Women Welfare",
+        "hindi": "महिला कल्याण",
+        "marathi": "महिला कल्याण"
+      }
+    },
+    {
+      "id": "housing",
+      "name": {
+        "english": "Housing",
+        "hindi": "आवास",
+        "marathi": "गृहनिर्माण"
+      }
+    },
+    {
+      "id": "health",
+      "name": {
+        "english": "Health",
+        "hindi": "स्वास्थ्य",
+        "marathi": "आरोग्य"
+      }
+    },
+    {
+      "id": "agriculture",
+      "name": {
+        "english": "Agriculture",
+        "hindi": "कृषि",
+        "marathi": "शेती"
+      }
+    },
+    {
+      "id": "welfare",
+      "name": {
+        "english": "General Welfare",
+        "hindi": "सामान्य कल्याण",
+        "marathi": "सामान्य कल्याण"
+      }
+    },
+    {
+      "id": "financial-inclusion",
+      "name": {
+        "english": "Financial Inclusion",
+        "hindi": "वित्तीय समावेश",
+        "marathi": "आर्थिक समावेश"
+      }
+    },
+    {
+      "id": "technology",
+      "name": {
+        "english": "Technology",
+        "hindi": "तकनीक",
+        "marathi": "तंत्रज्ञान"
+      }
+    }
+  ],
+  "updates": [
+    {
+      "date": "2025-08-09",
+      "title": {
+        "english": "Ladki Bahin Yojana 13th installment to be released on Raksha Bandhan",
+        "hindi": "रक्षा बंधन पर लाडकी बहिण योजना की 13वीं किस्त जारी होगी",
+        "marathi": "रक्षाबंधनाला लाडकी बहीण योजनेचा 13वा हप्ता रिलीज होणार"
+      },
+      "scheme": "ladki-bahin-yojana"
+    },
+    {
+      "date": "2025-08-05",
+      "title": {
+        "english": "PM Awas Yojana extends deadline for rural applications till August 31",
+        "hindi": "पीएम आवास योजना ने ग्रामीण आवेदनों की समय सीमा 31 अगस्त तक बढ़ाई",
+        "marathi": "पीएम आवास योजनेने ग्रामीण अर्जांची मुदत 31 ऑगस्टपर्यंत वाढवली"
+      },
+      "scheme": "pm-awas-yojana"
+    },
+    {
+      "date": "2025-08-01",
+      "title": {
+        "english": "Ayushman Bharat adds 500+ new hospitals in Maharashtra",
+        "hindi": "आयुष्मान भारत ने महाराष्ट्र में 500+ नए अस्पताल जोड़े",
+        "marathi": "आयुष्मान भारतने महाराष्ट्रात 500+ नवीन रुग्णालये जोडली"
+      },
+      "scheme": "ayushman-bharat"
+    }
+  ]
+}
