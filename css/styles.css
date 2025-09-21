@@ -83,6 +83,11 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 14px;
   margin-top: 18px;
+  
+  text-decoration: underline;
+  cursor: pointer;
+  color: #76a2d2;
+
 }
 
 .scheme-item {
