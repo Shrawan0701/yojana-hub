@@ -1,0 +1,1 @@
+Replace this with a 32x32 png named favicon.png and update index.html if needed.
