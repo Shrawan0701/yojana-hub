@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- ✅ SEO Title -->
+  <title>SPPU CGPA to Percentage Converter | Official & Simplified Formulas (2025)</title>
+
+  <!-- ✅ SEO Description -->
+  <meta name="description" content="Convert your CGPA to percentage instantly using official SPPU and simplified formulas (Circular 332/2020). Fast, accurate, and reliable CGPA converter for students.">
+
+  <!-- ✅ Keywords -->
+  <meta name="keywords" content="SPPU CGPA to percentage, CGPA to percentage calculator, Pune University result, CGPA to marks, SPPU Circular 332 2020, engineering CGPA calculator, CGPA to percentage online, university converter">
+
+  <!-- ✅ Google AdSense Verification Meta Tag -->
+  <meta name="google-adsense-account" content="ca-pub-9434690968637455">
+
+  <!-- ✅ Google AdSense Script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9434690968637455" crossorigin="anonymous"></script>
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZS4P6QW7KB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZS4P6QW7KB');
+</script>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" type="image/png" sizes="32x32" href="sppu.png">
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "SPPU CGPA to Percentage Converter",
+    "url": "https://www.sarkari-prakashan.com",
+    "description": "Convert your CGPA to percentage using official and simplified SPPU formulas (Circular 332/2020).",
+    "applicationCategory": "Education",
+    "operatingSystem": "All",
+    "creator": {
+      "@type": "Organization",
+      "name": "Sarkari Prakashan",
+      "url": "https://www.sarkari-prakashan.com"
+    }
+  }
+  </script>
+</head>
+<body>
+<!-- ✅ Responsive Navbar -->
+<header class="navbar">
+  <div class="nav-container">
+    <div class="nav-left">
+      <img src="sppu.png" alt="Logo" class="nav-logo">
+      <a href="index.html" class="nav-title">CGPA To Percentage Calculator</a>
+    </div>
+
+    <div class="nav-toggle" id="nav-toggle">☰</div>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+
+<!-- ✅ GOOGLE TRANSLATE WIDGET -->
+
+<!-- ======== Trending Blogs Section ======== -->
+<div class="blog-ticker">
+  <span class="blog-label">📚 Trending Blogs:</span>
+  <div class="blog-slider">
+    <a href="minimum-knowledge.html">Minimum knowledge required to crack Software Developer Interviews</a>
+    <a href="offcampus-jobs.html">How to search and apply for off-campus jobs/internships?</a>
+    <a href="resume-guide.html">A complete guide on making resume for Software roles.</a>
+    <a href="wasted-years-dsa-or-dev.html">Wasted 2–3 years of college. What to do DSA or Dev?</a>
+    <a href="revise-dsa-for-interviews.html">How to revise DSA for interviews in a short amount of time?</a>
+  </div>
+</div>
+<!-- ======== End Trending Blogs Section ======== -->
+
+
+<div class="container">
+    <h1>SPPU CGPA to Percentage <span class="highlight">Converter</span></h1>
+    <p class="subtitle">Based on official Savitribai Phule Pune University Circular No. 332/2020</p>
+
+    <h3 class="method-title">Choose Conversion Method</h3>
+
+    <div class="method-cards">
+      <div class="method-card active" id="official" onclick="setMethod('official')">
+        <h4>SPPU Official Formula</h4>
+        <p>Based on Circular No. 332/2020, varies by CGPA range</p>
+        <span class="tag blue">Official</span>
+        
+      </div>
+
+      <div class="method-card" id="simplified" onclick="setMethod('simplified')">
+        <h4>Simplified Formula</h4>
+        <p>Uses CGPA × 8.9 for all CGPA values</p>
+        <span class="tag green">Fast</span>
+      </div>
+
+      <div class="method-card" id="alternative" onclick="setMethod('alternative')">
+        <h4>Alternative Formula</h4>
+        <p>Uses (CGPA − 0.75) × 10 for all CGPA values</p>
+        <span class="tag purple">Old</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <label for="cgpa">Enter your CGPA:</label>
+      <input type="number" id="cgpa" placeholder="e.g. 7.24" min="4" max="10" step="0.01" />
+      <button id="calcBtn">Calculate</button>
+    </div>
+    <div class="conversion-result">
+  <h3>Conversion Result</h3>
+  <div class="result-grid">
+    <div>
+      <h4>Percentage</h4>
+      <p id="percentageResult" class="result-value">—</p>
+    </div>
+    <div>
+      <h4>Grade</h4>
+      <p id="gradeResult" class="result-value">—</p>
+    </div>
+    <div>
+      <h4>Class</h4>
+      <p id="classResult" class="result-value">—</p>
+    </div>
+  </div>
+</div>
+<section class="info-section">
+  <h3>CGPA and Class Awarded</h3>
+  <table class="info-table">
+    <thead>
+      <tr>
+        <th>CGPA Range</th>
+        <th>Degree Class</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>7.75 and above</td><td>First Class With Distinction</td></tr>
+      <tr><td>6.75 to 7.74</td><td>First Class</td></tr>
+      <tr><td>6.25 to 6.74</td><td>Higher Second Class</td></tr>
+      <tr><td>5.50 to 6.24</td><td>Second Class</td></tr>
+      <tr><td>Below 5.50</td><td>Pass Class</td></tr>
+    </tbody>
+  </table>
+</section>
+
+
+    <div id="result" class="result-box"></div>
+
+    <div class="formula-section">
+      <h2>Official SPPU Conversion Formula</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>CGPA Range</th>
+            <th>Formula</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>9.50 and above</td><td>20 × CGPA − 100</td><td>O (Outstanding)</td></tr>
+          <tr><td>8.25 – 9.49</td><td>12 × CGPA − 25</td><td>A+ (Excellent)</td></tr>
+          <tr><td>6.75 – 8.24</td><td>10 × CGPA − 7.5</td><td>A (Very Good)</td></tr>
+          <tr><td>5.75 – 6.74</td><td>5 × CGPA + 26.25</td><td>B+ (Good)</td></tr>
+          <tr><td>5.25 – 5.74</td><td>10 × CGPA − 2.5</td><td>B (Above Average)</td></tr>
+          <tr><td>4.75 – 5.24</td><td>10 × CGPA − 2.5</td><td>C (Average)</td></tr>
+          <tr><td>4.00 – 4.74</td><td>6.6 × CGPA + 13.6</td><td>D/P (Pass)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <section class="about-section">
+    <div class="about-card">
+      <h2>About Us</h2>
+      <p>
+        This SPPU CGPA to Percentage Converter was built for accuracy and ease of use. It follows
+        <strong>official university conversion formulas</strong> as per SPPU Circular No. 332/2020,
+        giving students an authentic and dependable way to convert their CGPA into percentage.
+      </p>
+      <p>What makes this tool different:</p>
+      <ul>
+        <li>Implements verified grade-wise rules directly from SPPU documentation.</li>
+        <li>Displays grade and class awarded automatically for clarity.</li>
+        <li>Lets you save and compare multiple conversion results.</li>
+        <li>Provides explanations to understand how your percentage is derived.</li>
+      </ul>
+      <p class="note">
+        <strong>Note:</strong> This tool is designed for guidance purposes. Always confirm with the latest SPPU circular when submitting official transcripts or forms.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>SPPU CGPA to Percentage Converter - Created for Students</p>
+    <p>Based on SPPU rulebook and circular no. 332/2020</p>
+  </footer>
+
+</div>
+
+<script>
+  const navToggle = document.getElementById('nav-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+
+<!-- ✅ GOOGLE TRANSLATE SCRIPT -->
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
