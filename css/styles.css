@@ -15,6 +15,73 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+/* Responsive fix for Conversion Result layout */
+.conversion-result {
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.conversion-result h3 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.result-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  text-align: center;
+}
+
+.result-grid div {
+  flex: 1;
+  background: #f7f9fc;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.result-grid h4 {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+.result-value {
+  font-weight: 600;
+  color: #1a3cff;
+  font-size: 16px;
+}
+
+/* 📱 Mobile fix */
+@media (max-width: 600px) {
+  .result-grid {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .result-grid div {
+    width: 100%;
+  }
+
+  .conversion-result h3 {
+    font-size: 16px;
+  }
+
+  .result-grid h4 {
+    font-size: 14px;
+  }
+
+  .result-value {
+    font-size: 15px;
+  }
+}
+
 /* ======== Trending Blogs Section ======== */
 .blog-ticker {
   display: flex;
